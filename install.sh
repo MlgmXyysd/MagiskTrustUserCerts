@@ -11,6 +11,7 @@ print_modname() {
   ui_print "**********************************"
 }
 on_install() {
+  ui_print "- Installing module"
 }
 set_permissions() {
   set_perm_recursive $MODPATH 0 0 0755 0644
